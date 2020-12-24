@@ -1,7 +1,7 @@
 """Constants used by Home Assistant components."""
-MAJOR_VERSION = 0
-MINOR_VERSION = 119
-PATCH_VERSION = "0.dev0"
+MAJOR_VERSION = 2020
+MINOR_VERSION = 12
+PATCH_VERSION = "1"
 __short_version__ = f"{MAJOR_VERSION}.{MINOR_VERSION}"
 __version__ = f"{__short_version__}.{PATCH_VERSION}"
 REQUIRED_PYTHON_VER = (3, 7, 1)
@@ -170,6 +170,7 @@ CONF_STATE = "state"
 CONF_STATE_TEMPLATE = "state_template"
 CONF_STRUCTURE = "structure"
 CONF_SWITCHES = "switches"
+CONF_TARGET = "target"
 CONF_TEMPERATURE_UNIT = "temperature_unit"
 CONF_TIMEOUT = "timeout"
 CONF_TIME_ZONE = "time_zone"
